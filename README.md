@@ -1,26 +1,12 @@
 ## Overview
-Repository with preconfigured maven project with SpringConfig and SpringMvcDispatcherInitializer classes on a board.
+This is a simple application which provides creating, reading, updating and deleting telephone book contacts.
+The information about each contact contains its name, phone number and email.  
 
 ## Building
-...
-
-## Troubleshooting
-...
-
-## Release Notes
-Can be found in [RELEASE_NOTES](RELEASE_NOTES.md).
+To run the project, you need to deploy it using Tomcat Server.
 
 ## Authors
 * Ivan IG - [ivan-ig](https://github.com/ivan-ig)
-
-## Acknowledgments
-...
-
-## Contributing
-Please, follow [Contributing](CONTRIBUTING.md) page.
-
-## Code of Conduct
-Please, follow [Code of Conduct](CODE_OF_CONDUCT.md) page.
 
 ## License
 This project is Apache License 2.0 - see the [LICENSE](LICENSE) file for details
