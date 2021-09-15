@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Telephone book</title>
+</head>
+<body>
+<div th:each="person : ${contacts}">
+    <a th:href="@{/contacts/{id}(id=${person.getId()})}" th:text="${person.getName()}"></a>
+</div>
+<br/>
+<hr/>
+<form th:method="GET" action="/contacts/new">
+    <input type="submit" value="Add new contact"/>
+</form>
+</body>
+</html>
